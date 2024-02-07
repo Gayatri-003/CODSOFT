@@ -1,0 +1,51 @@
+/* styles.css */
+.grid-pane {
+    -fx-background-color: #0b013f;
+}
+
+/* General styling for labels */
+Label {
+    -fx-font-size: 14pt;
+    -fx-font-weight: bold;
+    -fx-text-fill: #333333;
+}
+
+/* Styling for text fields */
+TextField {
+    -fx-font-size: 14pt;
+    -fx-pref-height: 30;
+    -fx-pref-width: 150;
+}
+ComboBox{
+    background-color: #670404;
+}
+
+/* Styling for buttons */
+#convertButton {
+    -fx-font-size: 14pt;
+    -fx-pref-height: 40;
+    -fx-pref-width: 120;
+    -fx-background-color: #4CAF50; /* Green background color */
+    -fx-text-fill: white; /* White text color */
+}
+#resetButton{
+    -fx-font-size: 14pt;
+    -fx-pref-height: 40;
+    -fx-pref-width: 120;
+    -fx-background-color: #4CAF50; /* Green background color */
+    -fx-text-fill: white;
+}
+
+/* Styling for background image */
+GridPane {
+    -fx-background-size: cover;
+}
+
+/* Styling for the result text fields */
+TextField[result=true] {
+    -fx-font-size: 14pt;
+    -fx-pref-height: 30;
+    -fx-pref-width: 150;
+    -fx-text-fill: #008CBA; /* Blue text color */
+    -fx-font-weight: bold;
+}
