@@ -1,0 +1,15 @@
+.root{
+    -fx-background-color:lightblue;
+}
+#startButton{
+    -fx-background-color: #201543;
+    -fx-text-fill: white;
+}
+#okButton{
+    -fx-background-color:#201543;
+    -fx-text-fill: white;
+}
+#replayButton{
+    -fx-background-color:#201543;
+    -fx-text-fill: white;
+}
